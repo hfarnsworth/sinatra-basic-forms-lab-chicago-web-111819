@@ -4,4 +4,5 @@ require 'bundler/setup'
 Bundler.require(:default, ENV['SINATRA_ENV'])
 
 require './app'
+require './puppy_controller'
 require_all 'models'
